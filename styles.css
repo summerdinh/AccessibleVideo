@@ -1,0 +1,46 @@
+.notes-container {
+  position: absolute;
+  text-align: center;
+  font-size: larger;
+  padding: 5% 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000000;
+}
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  margin-top: 5%;
+}
+video {
+  width:100%;
+  height: auto;
+}
+#page-title{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 94%;
+  margin: 10% auto;
+  font-size: larger;
+  text-align: center;
+}
+#video-container, #instructions, #description{
+  width: 94%;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+} 
+#video-container>h1, #instructions>h1, #description>h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+#portfolio-screenshot{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: .25em solid black;
+}
